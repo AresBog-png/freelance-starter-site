@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#141b35"/>
+      <stop offset="100%" stop-color="#1a1140"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="260" cy="180" r="180" fill="#7dd3fc" opacity="0.12" filter="url(#glow)"/>
+  <circle cx="1320" cy="700" r="220" fill="#a78bfa" opacity="0.12" filter="url(#glow)"/>
+
+  <text x="100" y="170" font-family="Arial, Segoe UI, sans-serif" font-size="28" fill="#7dd3fc" letter-spacing="4">ЦИФРОВОЙ ПРОДУКТ</text>
+  <text x="100" y="270" font-family="Arial, Segoe UI, sans-serif" font-size="72" font-weight="700" fill="#eef2ff">Стартовый набор</text>
+  <text x="100" y="350" font-family="Arial, Segoe UI, sans-serif" font-size="72" font-weight="700" fill="url(#accent)">фрилансера</text>
+  <text x="100" y="420" font-family="Arial, Segoe UI, sans-serif" font-size="32" fill="#b8c1d9">5 готовых шаблонов для работы с клиентами</text>
+
+  <g font-family="Arial, Segoe UI, sans-serif">
+    <g transform="translate(100,500)">
+      <rect width="260" height="110" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+      <rect x="22" y="30" width="50" height="50" rx="12" fill="url(#accent)"/>
+      <text x="47" y="62" font-size="22" font-weight="700" fill="#09111f" text-anchor="middle">01</text>
+      <text x="90" y="64" font-size="28" fill="#eef2ff" font-weight="600">Бриф</text>
+    </g>
+    <g transform="translate(390,500)">
+      <rect width="260" height="110" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+      <rect x="22" y="30" width="50" height="50" rx="12" fill="url(#accent)"/>
+      <text x="47" y="62" font-size="22" font-weight="700" fill="#09111f" text-anchor="middle">02</text>
+      <text x="90" y="64" font-size="28" fill="#eef2ff" font-weight="600">КП</text>
+    </g>
+    <g transform="translate(680,500)">
+      <rect width="260" height="110" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+      <rect x="22" y="30" width="50" height="50" rx="12" fill="url(#accent)"/>
+      <text x="47" y="62" font-size="22" font-weight="700" fill="#09111f" text-anchor="middle">03</text>
+      <text x="90" y="64" font-size="28" fill="#eef2ff" font-weight="600">Чек-лист</text>
+    </g>
+    <g transform="translate(970,500)">
+      <rect width="260" height="110" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+      <rect x="22" y="30" width="50" height="50" rx="12" fill="url(#accent)"/>
+      <text x="47" y="62" font-size="22" font-weight="700" fill="#09111f" text-anchor="middle">04</text>
+      <text x="90" y="56" font-size="26" fill="#eef2ff" font-weight="600">Контент-</text>
+      <text x="90" y="84" font-size="26" fill="#eef2ff" font-weight="600">план</text>
+    </g>
+    <g transform="translate(1260,500)">
+      <rect width="240" height="110" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.14)"/>
+      <rect x="22" y="30" width="50" height="50" rx="12" fill="url(#accent)"/>
+      <text x="47" y="62" font-size="22" font-weight="700" fill="#09111f" text-anchor="middle">05</text>
+      <text x="90" y="56" font-size="26" fill="#eef2ff" font-weight="600">Трекер</text>
+      <text x="90" y="84" font-size="26" fill="#eef2ff" font-weight="600">доходов</text>
+    </g>
+  </g>
+
+  <text x="100" y="790" font-family="Arial, Segoe UI, sans-serif" font-size="24" fill="#94a3b8">Markdown + CSV • Редактируемые файлы • Готово к использованию</text>
+</svg>
