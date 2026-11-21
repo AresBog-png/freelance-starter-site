@@ -1,7 +1,7 @@
 // === НАСТРОЙКИ МОНЕТИЗАЦИИ ===
 // Вставьте сюда свою ссылку на оплату (Gumroad, Boosty, Hipolink, ЮKassa, Stripe Payment Link и т.д.)
 const PAYMENT_LINK = "https://hipolink.net/ares_pro/products/startovyy-nabor-frilansera";
-const CONTACT_EMAIL = ""; // пример: "you@example.com"
+const CONTACT_EMAIL = "arespro8912@gmail.com"; // пример: "you@example.com"
 const TELEGRAM_LINK = ""; // пример: "https://t.me/yourchannel"
 
 function openPayment() {
