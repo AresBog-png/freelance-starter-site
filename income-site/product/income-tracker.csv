@@ -1,0 +1,6 @@
+date,type,category,description,amount,currency,status,notes
+2026-05-01,income,Project,Оплата за дизайн лендинга,30000,RUB,received,Предоплата 50%
+2026-05-03,expense,Software,Подписка на сервис,1200,RUB,paid,Ежемесячно
+2026-05-05,income,Consulting,Консультация 1 час,5000,RUB,received,
+2026-05-07,expense,Tax,Налог/взнос,2500,RUB,planned,Уточнить сумму
+2026-05-10,income,Project,Оплата за дизайн лендинга,30000,RUB,planned,Остаток 50%
